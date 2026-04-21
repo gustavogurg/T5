@@ -45,4 +45,5 @@ printGraph(G)
 lista_cores = ["Vermelho", "Verde", "Azul", "Amarelo", "Ciano", "Magenta", "Laranja", "Roxo", "Marrom", "Cinza"]
 
 for v in range(G.V):
+    print('Coloração dos vértices:')
     print(f"Vértice {v} -> Cor {lista_cores[dsatur(G)[v]]}")
